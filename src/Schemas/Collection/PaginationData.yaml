@@ -1,0 +1,22 @@
+title: PaginationData
+type: object
+properties:
+  offset:
+    type: integer
+    description: 'The offset applied for querying the resource.  Offset is zerobased.'
+    default: 0
+    example: 0
+  total:
+    type: integer
+    description: 'The total number of results found in the database for the given query.  Combining this with both `offset` and `limit` allows you to determine whether data is being paged, and you need subsequent requests to retrieve all data.'
+    example: 80
+  limit:
+    type: integer
+    description: 'The limit (maximum number of records) applied when querying the data.  '
+    default: 15
+    example: 15
+  count:
+    type: integer
+    description: 'The number of results returned in the response.  In the event that you are fetching the last `page`, the actual `count` may be lower than the `limit` applied to query the data.'
+    default: 15
+    example: 15

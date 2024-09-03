@@ -1,0 +1,5 @@
+title: BaseCollection
+type: object
+properties:
+  pagination:
+    $ref: './PaginationData.yaml'
