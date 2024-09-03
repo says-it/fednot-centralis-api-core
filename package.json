@@ -1,0 +1,11 @@
+{
+  "name": "fednot-centralis-api-core",
+  "version": "0.0.1",
+  "description": "Centralis Common API Components",
+  "scripts": {
+  },
+  "author": "Fednot",
+  "license": "UNLICENSED",
+  "devDependencies": {
+  },
+}
