@@ -1,0 +1,7 @@
+in: query
+name: include
+description: Instructs the server to include sub resources by providing the names of the relationships you wish to be included in the response.
+required: false
+schema:
+  type: string
+  explode: false

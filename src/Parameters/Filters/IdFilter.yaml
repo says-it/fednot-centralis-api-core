@@ -1,0 +1,8 @@
+in: query
+name: id
+description: Filters the collection by id.  Allows for easy retrieval of a collection of resources by their identifier.
+required: false
+schema:
+  type: string
+  style: form
+  explode: false

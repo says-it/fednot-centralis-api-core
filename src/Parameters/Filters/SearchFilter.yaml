@@ -1,0 +1,7 @@
+name: search
+in: query
+required: false
+schema:
+  type: string
+description: 'Simple search entry, allowing for quickly searching the resources without needing to specify the exact 
+fields. Refer to the resource description for each individual resource to learn how the searches are being applied.'
