@@ -1,0 +1,9 @@
+title: PartialData
+description: A partial date is a string representing a date in the YYYY-MM-DD format where the month and date part 
+  are optional, in which case their value is replaced by '00'.  When the month is unknown, the day will also be unknown
+type: string
+pattern: ^(1[8-9]\d{2}|20\d{2})-(00)-(00)$|^(1[8-9]\d{2}|20\d{2})-(01|03|05|07|08|10|12)-(00|[0-2][0-9]|3[0-1])$|^(1[8-9]\d{2}|20\d{2})-(04|06|09|11)-(00|[0-2][0-9]|30)$|^(1[8-9]\d{2}|20\d{2})-02-(00|[0-2][0-8])$
+examples:
+  - 2001-09-11
+  - 2001-09-00
+  - 2001-00-00
