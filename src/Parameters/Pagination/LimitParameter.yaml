@@ -1,0 +1,9 @@
+in: query
+name: limit
+description: The number of items which will be included in the search
+required: false
+schema:
+  type: integer
+  minimum: 1
+  maximum: 50
+  default: 15

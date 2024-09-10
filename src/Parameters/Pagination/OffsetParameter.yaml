@@ -1,0 +1,8 @@
+name: offset
+in: query
+required: false
+schema:
+  type: integer
+  default: 0
+  minimum: 0
+description: The offset determining the first result which will be returned. The offset is zero based
