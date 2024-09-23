@@ -1,0 +1,12 @@
+in: query
+name: version
+description: |-
+  Instructs the server to fetch a specific version of a resource.
+required: false
+schema:
+  oneOf:
+    - type: string
+      explode: false
+    -
+  type: string
+  explode: false

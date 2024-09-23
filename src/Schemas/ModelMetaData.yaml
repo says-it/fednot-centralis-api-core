@@ -12,3 +12,8 @@ properties:
     description: 'Date and time of when the resource was last modified.'
     type: string
     format: date-time
+    readOnly: true
+  version:
+    description: 'Version of the resource, in case versioning is being supported.'
+    type: integer
+    readOnly: true
